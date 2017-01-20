@@ -7,6 +7,6 @@ alt: image-alt
 project-date: April 2014
 client: Testing, Version Control & Continuous Integration
 category: Testing, Version Control & Continuous Integration
-description: Testing is how you can guarantee that your application will be robust and as bug-free as possible. Integrated into a continuous integration process, discover how you can optimise and automate your web development process.
+description: Testing allows you to help guarantee that your application is as robust and bug-free as possible. Integrated into a continuous integration process, discover how you can optimise and automate your web development flow.
 
 ---

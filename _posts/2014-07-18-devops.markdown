@@ -8,5 +8,4 @@ project-date: April 2014
 client: Project Management
 category: Project Management
 description: Once you have built your app, you still need to deploy it on a server. This week is dedicated to the basics of server and DNS management.
-
 ---
