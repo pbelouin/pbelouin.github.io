@@ -10,18 +10,18 @@
                 </div>
             </div>
             <div class="row">
-                {% assign post_index = 1 %}
-                    {% for post in site.posts reversed %}
+                {% assign page_index = 1 %}
+                    {% for page in site.course_weeks %}
                     <div class="col-sm-6 col-md-6 col-lg-4 portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <a href="{{page.url}}">
                             <div class="caption">
                             </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                            <h3>Week {{post_index}}<br>{{post.title}}</h3>
+                            <img src="img/portfolio/{{ page.img }}" class="img-responsive" alt="{{ page.alt }}">
+                            <h4>Week {{page_index}}<br>{{page.tagline}}</h4>
                             <br>
                         </a>
                     </div>
-                    {% assign post_index = post_index | plus: 1 %}
+                    {% assign page_index = page_index | plus: 1 %}
                 {% endfor %}
             </div>
         </div>
