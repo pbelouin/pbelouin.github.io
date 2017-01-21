@@ -8,4 +8,6 @@ description: Ruby on Rails is one of the most powerful web development framework
 topics_covered:
   - User Authentication
   - Adding Functionalities to your Application
+  - KISS and DRY&#58; Keep it Simple and Don't Repeat Yourself
+  - Mailers, Delayed Jobs and Advanced Features
 ---
