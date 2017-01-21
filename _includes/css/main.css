@@ -447,6 +447,11 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
+.help-block ul {
+  list-style: none;
+  margin-left: -40px!important;
+}
+
 .navbar-nav>.active>a {
     background-color: #{{ site.color.secondary-dark }} !important;
 }
